@@ -23,7 +23,7 @@ function About() {
     },[]);
 
     if (!author) return <div>
-        <img src={p5} className="absolute w-full"/>            
+        <img src={p5} className="absolute w-full" alt ="pra"/>            
             <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
                 <h1  
                     className="text-6xl text-center text-green-100 
